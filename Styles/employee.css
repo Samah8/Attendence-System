@@ -1,0 +1,35 @@
+            table
+            {
+                border:1px solid black;
+                margin:15px;
+                border-collapse: collapse;
+            }
+            th
+            {
+                background-color: rgb(132, 204, 174);
+                color: azure;
+            }
+            th,td
+            {   
+                border:1px solid black;
+                padding:20px
+            }
+            #span1 label{
+                margin-left:10px;
+                margin-right: 20px;
+            }
+
+            #span2 label{
+                margin-left:10px;
+                margin-right: 10px;
+            }
+            button
+            {
+                margin-left: 15px;
+                padding: 5px;
+                border: none;
+            }
+        
+
+            
+            

@@ -1,0 +1,23 @@
+           table
+            {
+                border:1px solid black;
+                margin:15px;
+                border-collapse: collapse;
+            }
+            th
+            {
+                background-color: rgb(132, 181, 204);
+                color: azure;
+            }
+            th,td
+            {   
+                border:1px solid black;
+                padding:20px
+            }
+            button
+            {
+                margin-left: 15px;
+                padding: 5px;
+                border: none;
+            }
+            

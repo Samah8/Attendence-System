@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
+    <title>Employee Page</title>
+</head>
+<body id="body">
+    <div class="container">
+       <nav class="navbar">
+        <div class="navbar__left">
+            <a class="active_link" href="#">Employe</a>
+          </div>
+          <div class="navbar__right">
+            <span id="inputText"></span>
+            <span onclick="enterName()">
+              <i class="fa fa-search" style="color: rgba(0, 0, 0, 0.616);"></i>
+            </span>
+            <span >
+              <input type="date" name="" id="">
+            </span>
+            <span>
+              <img width="30" src="../assets/avatar.svg" alt="" />
+            </span>
+          </div>
+       </nav>
+       <main>
+
+        <div class="main__container">
+        <!-- MAIN TITLE STARTS HERE -->
+
+        <div class="main__title">
+            <img src="../assets/hello.svg" alt="" />
+            <div class="main__greeting">
+              <h1>Hello </h1>
+              <p>Welcome to your employee dashboard</p>
+            </div>
+          </div>
+
+          <!-- MAIN TITLE ENDS HERE -->
+          <!-- CHARTS STARTS HERE -->
+          <div class="charts">
+            <div class="charts__left">
+              <div class="charts__left__title">
+                
+              </div>
+              <div id="apex1"></div>
+            </div>
+
+           
+          </div>
+          <!-- CHARTS ENDS HERE -->
+        </div>
+       </main>
+        
+       <!-- Side Bar -->
+
+       <div id="sidebar">
+        <div class="sidebar__title">
+          <div class="sidebar__img">
+            <img src="../assets/logo.png" alt="logo" />
+            <h1>Attendance System</h1>
+          </div>
+        </div>
+        <div class="sidebar__menu ">
+            <div class="sidebar__link active_menu_link">
+                <i class="fa fa-home"></i>
+                <a href="#">Dashboard</a>
+              </div>
+            <br>
+              <div class="sidebar__link">
+                <i class="fa fa-building-o" aria-hidden="true"></i>
+                <span onclick="dailyReport()">Daily Report</span>
+                <span id="span1"></span>
+              </div>
+              <div class="sidebar__link">
+                <i class="fa fa-building-o" aria-hidden="true"></i>
+                <span onclick="monthlyReport()">Monthly Report </span>
+                <br><br>
+                <span id="span2"></span>
+              </div>
+              <div class="sidebar__logout">
+                <i class="fa fa-power-off"></i>
+                <a href="../home.html">Log out</a>
+              </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="../Scripts/admin.js"></script>
+       <link rel="stylesheet" href="../Styles/admin.css" />
+        <link rel="stylesheet" href="../Styles/employee.css">
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" 
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" 
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css"/>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+  <script src="../Scripts/employee.js"></script>
+</body>
+</html>

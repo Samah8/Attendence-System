@@ -1,0 +1,69 @@
+{
+  "admin": [
+    {
+      "username": "admin1",
+      "password": "adm123"
+    }
+  ],
+  "employee": [
+    {
+      "username": "employee1",
+      "password": "emp123"
+    }
+  ],
+  "users": [
+    {
+      "firstName": "Samah",
+      "lastName": "Ayman",
+      "email": "samahayman836@gmail.com",
+      "age": "22",
+      "address": "El_Mahalla ELkubra",
+      "username": "px70Jrj5WbD",
+      "password": "SNj1DLSBH(",
+      "absent": "yes",
+      "date": "2023-01-27",
+      "id": 1
+    },
+    {
+      "firstName": "Mohammed",
+      "lastName": "Ayman",
+      "email": "exams@students.mans.edu.eg",
+      "address": "El_Mahalla ELkubra",
+      "age": "20",
+      "username": "chChmg9Dpqq",
+      "password": "F!Y^SpyNSW",
+      "absent": "no",
+      "id": 2
+    }
+  ],
+  "attendanceUser": [
+    {
+      "username": "chChmg9Dpqq",
+      "password": "F!Y^SpyNSW",
+      "firstName": "Mohammed",
+      "lastName": "Ayman",
+      "email": "exams@students.mans.edu.eg",
+      "address": "El_Mahalla ELkubra",
+      "age": "20",
+      "attendance_time": "14:16",
+      "departure_time": "15:30",
+      "date": "2023-01-27",
+      "userId": "2",
+      "id": 1
+    },
+    {
+      "username": "chChmg9Dpqq",
+      "password": "F!Y^SpyNSW",
+      "firstName": "ali",
+      "lastName": "Ayman",
+      "email": "exams@students.mans.edu.eg",
+      "address": "El_Mahalla ELkubra",
+      "age": "20",
+      "attendance_time": "14:16",
+      "departure_time": "15:30",
+      "date": "2023-01-27",
+      "userId": "2",
+      "id": 1
+    }
+  ]
+}
